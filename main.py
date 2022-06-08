@@ -1,3 +1,9 @@
+"""
+Created by Tyler O'Neil
+Version 1.0
+
+For more info -> https://www.pygame.org/docs/
+"""
 import pygame
 
 def game():
