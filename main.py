@@ -14,19 +14,19 @@ def game():
 
     SPEED = 1
     SCREEN_SIZE = (1000, 600)
-    BLUE = pygame.image.load("blue.png")
+    BLUE = pygame.image.load("images/blue.png")
     BLUE = pygame.transform.scale(BLUE, (200, 100))
-    YELLOW = pygame.image.load("yellow.png")
+    YELLOW = pygame.image.load("images/yellow.png")
     YELLOW = pygame.transform.scale(YELLOW, (200, 100))
-    GREEN = pygame.image.load("green.png")
+    GREEN = pygame.image.load("images/green.png")
     GREEN = pygame.transform.scale(GREEN, (200, 100))
-    PURPLE = pygame.image.load("purple.png")
+    PURPLE = pygame.image.load("images/purple.png")
     PURPLE = pygame.transform.scale(PURPLE, (200, 100))
     corner_score = 0
     font = pygame.font.Font('freesansbold.ttf', 32)
     screen = pygame.display.set_mode(SCREEN_SIZE)
     pygame.display.set_caption("Screensaver")
-    ball = pygame.image.load("ball.png")
+    ball = pygame.image.load("images/ball.png")
     ball = pygame.transform.scale(ball, (200, 100))
     ballrect = ball.get_rect()
     ballspeed = [SPEED, SPEED]
