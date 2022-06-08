@@ -8,3 +8,6 @@ https://www.pygame.org/docs/
  ```shell
  pip install pygame
  ```
+
+# License #
+Anyone can use this to customize it, and build whatever they want with it.
